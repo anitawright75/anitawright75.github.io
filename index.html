@@ -1,43 +1,51 @@
-<html lang="en">
-<head>
-    <title>Anita Wright's Portfolio</title>
-    <link rel="stylesheet" href="styles/style.css"/>
-    <script src="scripts/app.js"></script>
-</head>
-<body>
-<h1>Photo to go here</h1>
-<h2>My special tageline quote</h2>
-<nav>
-    <ul>
-        <li>home</li>
-        <li>Contact</li>
-        <li>Projects</li>
-    </ul>
-</nav>
-<article>
-    <h3>Project Title</h3>
-    <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
-</article>
-<article>
-<h3>Project Title</h3>
-<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
-</article>
-<article>
-<h3>Project Title</h3>
-<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
-</article>
-<article>
-<h3>Project Title</h3>
-<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
-</article>
-<article>
-<h3>Project Title</h3>
-<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
-</article>
-<footer>
-    &copy; 2016 myself.
+	<!DOCTYPE html>
+	<head>
+		<title>Are You Smarter Than Gordon Ramsay?</title>
+			<link rel="stylesheet" href="styles/main.css">
+	</head>
+		
+		<body>
+			<div id="wrapper">
+	
+				<header id="quiz">
+				
+					<h1>Are You Smarter Than Gordon Ramsay?</h1>
+						<p>Think You're Smarter Than Gordon Ramsay? Well here's your chance to prove it! Click the "Start Quiz" button to find out!</p>	
+				</header>
+				
+				<div id="question">
+					<button id="startButton">Start Quiz</button>
+				</div>
+						
+				<section id="main">	
 
-</footer>
+					<column id="left">
 
-</body>
-</html>
+        				<button id="answer1"></button>
+     	   
+        				<button id="answer2"></button>
+      				</column>
+
+      
+      				<column id="right">
+        			
+        				<button id="answer3"></button>
+
+      					<button id="answer4"></button>
+      				</column>
+
+    			 </section> 
+
+			<footer>
+				<div id="questionsDiv">
+					<button id="progress">Question x of y</button>
+				</div>
+			</footer>
+
+		</div>
+
+		<script src="script/questions.js"></script>
+		<script src="script/interactions.js"></script>
+		<script src="script/quiz.js"></script>
+	</body>
+	</html>
